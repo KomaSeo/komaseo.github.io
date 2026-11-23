@@ -136,3 +136,8 @@
   border-bottom: 0;
   font-weight: 700;
 }
+
+// Year headings on the publications page: a little darker than the divider color.
+.publications h2.bibliography {
+  color: color-mix(in srgb, var(--global-text-color) 35%, transparent);
+}
