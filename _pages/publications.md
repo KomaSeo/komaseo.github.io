@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Publications and manuscripts under review, in reverse chronological order.
+description: Publications and preprints in reverse chronological order.
 nav: true
 nav_order: 2
 ---
@@ -18,3 +18,5 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+<p class="text-muted"><em>+ 1 manuscript under review and 1 in preparation.</em></p>

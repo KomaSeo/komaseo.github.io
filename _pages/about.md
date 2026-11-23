@@ -36,4 +36,4 @@ My research asks how people can retain agency over the digital media and AI syst
 2. **share** these effects with the people around them, and
 3. **find** harm-prevention tools that fit their own situation.
 
-Along the way, I've built multi-agent LLM systems for ethics education, and collaborated on work about personalized micro-financial incentives for digital wellbeing and older adults' mental models of mobile automation agents.
+Along the way, I've built multi-agent LLM systems for ethics education, and collaborated on work about personalized micro-financial incentives for digital wellbeing and redirected walking in virtual reality.

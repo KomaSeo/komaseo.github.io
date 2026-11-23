@@ -6,10 +6,6 @@
   url: https://www.ieeeismar.net/
   color: "#9f3600"
 
-"TOCE":
-  url: https://dl.acm.org/journal/toce
-  color: "#009f36"
-
-"IMWUT":
-  url: https://dl.acm.org/journal/imwut
-  color: "#6a009f"
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
