@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: youngseokseo.com/sitemap.xml
+Sitemap: https://youngseokseo.com/sitemap.xml
