@@ -18,5 +18,3 @@ nav_order: 2
 {% bibliography %}
 
 </div>
-
-<p class="text-muted"><em>+ 1 manuscript under review and 1 in preparation.</em></p>
