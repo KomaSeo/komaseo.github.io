@@ -1,0 +1,6 @@
+{% comment %}
+  Hook included by al_folio_core's _layouts/bib.liquid just before it builds the venue line.
+  The publications page already groups entries under a year heading, so drop the per-entry month/year.
+{% endcomment %}
+{% assign entryyear = '' %}
+{% assign entrymonth = '' %}
