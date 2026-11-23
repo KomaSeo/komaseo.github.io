@@ -34,7 +34,7 @@ collection: books
 {% endif %}
 <figure class="cover">
 <div class="cover-link">
-{% if item.cover %}<img alt="{{ item.title }} cover" src="{{ item.cover | relative_url }}" style="height:200px">{% elsif item.olid %}<img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">{% elsif item.isbn %}<img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">{% endif %}
+{% if item.cover %}<img alt="{{ item.title }} cover" src="{{ item.cover | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M' }}" style="height:200px">{% elsif item.olid %}<img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">{% elsif item.isbn %}<img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">{% endif %}
 <div class="cover-meta"><span class="cover-title">{{ item.title_en | default: item.title }}</span><span class="cover-author">{{ item.author_en | default: item.author }}</span></div>
 {% assign status = item.status | downcase | strip %}
 {% assign statuses = "abandoned,finished,interested,paused,queued,reading,reread" | split: "," %}
