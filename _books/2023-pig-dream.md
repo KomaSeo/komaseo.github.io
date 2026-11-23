@@ -2,8 +2,10 @@
 layout: book-review
 title: "돼지꿈"
 author: "황석영"
+title_en: "A Dream of Good Fortune"
+author_en: "Hwang Sok-yong"
 cover: assets/img/book_covers/pig-dream.jpg
-date: 2023-01-01
+date: 2023-01-10
 started: 2023-01-01
 released: 1973
 status: Finished
