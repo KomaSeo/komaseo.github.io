@@ -10,3 +10,4 @@ _data/citations.yml
 assets/css/main.scss
 # Local copy of al_folio_cv render.liquid (kept close to upstream for diffing)
 _includes/cv/render.liquid
+_includes/cv/education.liquid
