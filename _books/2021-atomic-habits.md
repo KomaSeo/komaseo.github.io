@@ -2,7 +2,7 @@
 layout: book-review
 title: "Atomic Habits"
 author: "James Clear"
-olid: OL36647151M
+cover: assets/img/book_covers/atomic-habits.jpg
 date: 2021-01-18
 started: 2021-01-01
 released: 2018
