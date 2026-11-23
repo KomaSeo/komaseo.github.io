@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"CHI":
+  url: https://chi.acm.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ISMAR":
+  url: https://www.ieeeismar.net/
+  color: "#9f3600"
 
-"Vision":
+"TOCE":
+  url: https://dl.acm.org/journal/toce
   color: "#009f36"
+
+"IMWUT":
+  url: https://dl.acm.org/journal/imwut
+  color: "#6a009f"

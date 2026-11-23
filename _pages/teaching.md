@@ -2,14 +2,22 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching assistant experience at KAIST.
 nav: true
 nav_order: 6
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+### Teaching Assistant, KAIST School of Computing
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+- **CS.39900 Usable Security and Privacy**, Head Teaching Assistant (Fall 2025)
+- **CS.50300 Operating System** (Spring 2025)
+- **CS.30704 Introduction to Human-Computer Interaction** (Fall 2024)
 
-{% include courses.liquid %}
+### Outreach
+
+- KAIST Research and Education Program for Science High School Students, Teaching Assistant (2025, 2026)
+- KAIST Creative Global Leader Program Lab Tour, Lab Presenter (2026)
+
+### Recognition
+
+- Excellent Teaching Assistant Award, Edu 4.0 Q Program, KAIST Center for Teaching and Learning Innovation (2025), one of 10 recipients at KAIST
