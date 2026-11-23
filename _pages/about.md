@@ -26,6 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+> People have a right to know how technology is affecting them.
+
 I'm Youngseok Seo, a researcher in **Human–Computer Interaction** working on **positive computing**, **behavior change**, and **digital wellbeing**.
 I received my M.S. from the School of Computing at KAIST, where I worked in the [Interactive Computing Lab](https://ic.kaist.ac.kr/) with Prof. Uichin Lee.
 Before that, I earned my B.S. in Electrical Engineering and Computer Science from GIST (_cum laude_), where I worked on redirected walking in virtual reality at the HCIS Lab with Prof. SeungJun Kim.

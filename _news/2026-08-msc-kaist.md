@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received my M.S. from the School of Computing at KAIST. Thesis: *Development and Evaluation of a Multi-Agent Debate System-Based Tool for Enhancing Ethical Awareness and Responsiveness*.
+Received my M.S. from the School of Computing at KAIST. Thesis: _Development and Evaluation of a Multi-Agent Debate System-Based Tool for Enhancing Ethical Awareness and Responsiveness_.
