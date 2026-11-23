@@ -94,4 +94,16 @@
   flex: 1 1 0;
   max-width: none;
   margin-left: 120px;
+  padding-left: 15px;
+}
+
+// No bullet markers on entry highlights (thesis, honors, ...); keep them on the text column.
+.cv ul.items {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.25rem 0 0 1.5rem;
+
+  > li {
+    list-style: none;
+  }
 }
