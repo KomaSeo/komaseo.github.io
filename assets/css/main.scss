@@ -88,3 +88,10 @@
     padding: 0.25rem 0;
   }
 }
+
+// Undated entries (e.g. manuscripts) line up with the text column of dated ones.
+.cv .list-group-item > .row > .col-md-12:only-child {
+  flex: 1 1 0;
+  max-width: none;
+  margin-left: 120px;
+}

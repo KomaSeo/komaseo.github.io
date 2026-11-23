@@ -1,9 +1,13 @@
+# Web CV. Sections render in the order written here, matching assets/pdf/YoungseokSeo_CV.pdf.
+# The template for a section is picked by its first entry's fields (see _includes/cv/render.liquid).
 cv:
   name: Youngseok Seo
-  label: HCI Researcher
+  label: M.S., School of Computing, Korea Advanced Institute of Science and Technology
   email: ysseo0910@gmail.com
   location: Daejeon, Republic of Korea
   image: ""
+  summary_title: Research Interest
+  summary_keywords: Human–Computer Interaction, Behavior Change, Digital Wellbeing
   summary: >-
     I'm working on positive computing and digital wellbeing, asking how people can retain agency over digital media and AI that shape their
     behavior and cognition. My current focus is helping people (1) examine how their digital and AI use affects them, (2) share these effects
@@ -15,141 +19,119 @@ cv:
 
   sections:
     Education:
-      - institution: Korea Advanced Institute of Science and Technology (KAIST)
+      - institution: Korea Advanced Institute of Science and Technology
         location: Daejeon, Korea
         url: https://www.kaist.ac.kr/en/
-        area: School of Computing
+        area: School of Computing, GPA 3.85/4.3
         studyType: M.S.
         start_date: 2024-09
         end_date: 2026-08
-        score: "GPA 3.85/4.3"
         highlights:
           - "Thesis: Development and Evaluation of a Multi-Agent Debate System-Based Tool for Enhancing Ethical Awareness and Responsiveness"
-          - "Advisor: Prof. Uichin Lee"
 
-      - institution: Gwangju Institute of Science and Technology (GIST)
+      - institution: Gwangju Institute of Science and Technology
         location: Gwangju, Korea
         url: https://www.gist.ac.kr/en/
-        area: Electrical Engineering and Computer Science
+        area: Electrical Engineering and Computer Science, GPA 3.91/4.5
         studyType: B.S.
         start_date: 2018-03
         end_date: 2024-02
-        score: "GPA 3.91/4.5"
         highlights:
           - Graduated Cum Laude
 
       - institution: University of California, Berkeley
         location: Berkeley, CA, USA
         area: Computer Science and Statistics
-        studyType: Summer Session Program
-        start_date: 2019-06
-        end_date: 2019-08
+        studyType: 2019 Summer Session Program
+        date: 2019
 
-    Experience:
-      - company: Interactive Computing Lab, KAIST
-        position: M.S. Student Researcher
-        location: Daejeon, Korea
+    Research Assistant:
+      - position: Interactive Computing Lab, KAIST
+        company: "M.S. Student, Advisor: Prof. Uichin Lee"
         url: https://ic.kaist.ac.kr/
         start_date: 2024-09
         end_date: 2026-08
-        highlights:
-          - "Advisor: Prof. Uichin Lee"
-          - Multi-agent LLM systems for ethics education; digital wellbeing and behavior change
 
-      - company: HCIS Lab, Gwangju Institute of Science and Technology
-        position: Undergraduate Research Intern
-        location: Gwangju, Korea
+      - position: HCIS Lab, Gwangju Institute of Science and Technology
+        company: "Undergraduate Research Intern, Advisor: Prof. SeungJun Kim"
         start_date: 2022-06
         end_date: 2023-12
-        highlights:
-          - "Advisor: Prof. SeungJun Kim"
-          - Vestibular stimulation-based redirected walking in virtual reality
 
-      - company: Biocomputing Lab, Gwangju Institute of Science and Technology
-        position: Undergraduate Research Intern
-        location: Gwangju, Korea
-        start_date: 2018-12
-        end_date: 2019-02
-        highlights:
-          - "Advisor: Prof. Sungchan Jung"
-
-      - company: Republic of Korea Army
-        position: Field Artillery Battalion (Military Service)
-        location: Korea
-        start_date: 2020-05
-        end_date: 2021-11
+      - position: Biocomputing Lab, Gwangju Institute of Science and Technology
+        company: "Undergraduate Research Intern, Advisor: Prof. Sungchan Jung"
+        date: 2018
 
     Publications:
       - title: "Like Adding a Small Weight to a Scale About to Tip: Personalizing Micro-Financial Incentives for Digital Wellbeing"
-        authors:
-          - Sueun Jang
-          - Youngseok Seo
-          - Woohyeok Choi
-          - Uichin Lee
+        summary: "Sueun Jang, **Youngseok Seo**, Woohyeok Choi, Uichin Lee"
         publisher: ACM CHI 2025
         releaseDate: 2025-04
 
-      - title: "Enhancing Seamless Walking in Virtual Reality: Application of Bone-Conduction Vibration in Redirected Walking"
-        authors:
-          - Seokhyun Hwang
-          - YoungIn Kim
-          - Youngseok Seo
-          - SeungJun Kim
-        publisher: IEEE ISMAR 2023 (Honorable Mention Award)
-        releaseDate: 2023-10
-
       - title: "Electrical, Vibrational, and Cooling Stimuli-Based Redirected Walking: Comparison of Various Vestibular Stimulation-Based Redirected Walking Systems"
-        authors:
-          - Seokhyun Hwang
-          - Jieun Lee
-          - YoungIn Kim
-          - Youngseok Seo
-          - SeungJun Kim
+        summary: "Seokhyun Hwang, Jieun Lee, YoungIn Kim, **Youngseok Seo**, SeungJun Kim"
         publisher: ACM CHI 2023
         releaseDate: 2023-04
 
-    Awards:
-      - title: Excellent Teaching Assistant Award, Edu 4.0 Q Program
+      - title: "Enhancing Seamless Walking in Virtual Reality: Application of Bone-Conduction Vibration in Redirected Walking"
+        summary: "Seokhyun Hwang, YoungIn Kim, **Youngseok Seo**, SeungJun Kim<br>_Honorable Mention Award_"
+        publisher: IEEE ISMAR 2023
+        releaseDate: 2023-10
+
+    # Venues are intentionally left out on the web (the PDF lists them).
+    Manuscripts Under Review:
+      - title: "Ethics Training Agents: Facilitating Group-Based Ethics Education with Role-Playing and Discussion for Ethical Reflection and Exploration"
+        summary: "**Youngseok Seo**, Sueun Jang, Hyesoo Park, Renz Samuel Gutierrez, Joseph Seering, Uichin Lee"
+        publisher: arXiv preprint, under review
+
+      - title: "Instructor-Informed Multi-Agent AI for Ethics Education: Supporting Ethical Deliberation Across Five Engineering Courses"
+        summary: "**Youngseok Seo**, Renz Samuel Gutierrez, Hyesoo Park, Joseph Seering, Uichin Lee"
+        publisher: In preparation
+
+      - title: "Speak, Watch, Verify: A Mental Model of Older Adults' First-Use Interactions with Mobile Automation Agents"
+        summary: "Chanhee Lee, **Youngseok Seo**, Jihoon Woo, Amen Woldesenbet Brhanemesqel, Jiwoo Kang, Kenny Tsu Wei Choo, Uichin Lee"
+        publisher: Under review
+
+    Teaching Experience:
+      - position: CS.39900 Usable Security and Privacy (Head Teaching Assistant)
+        company: KAIST, Fall 2025
         date: 2025
-        awarder: KAIST Center for Teaching and Learning Innovation
-        summary: One of 10 recipients at KAIST
 
-      - title: Government-Funded Scholarship for KAIST Graduate Students
+      - position: CS.50300 Operating System
+        company: KAIST, Spring 2025
+        date: 2025
+
+      - position: CS.30704 Introduction to Human-Computer Interaction
+        company: KAIST, Fall 2024
         date: 2024
-        awarder: Korea Advanced Institute of Science and Technology
-        summary: 2024 – 2026
 
-      - title: Honorable Mention Award
-        date: 2023
-        awarder: IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
-        summary: 2nd Prize of Conference Papers
+    Service & Activities:
+      - position: Student Volunteer
+        company: SIGCHI Korea Local Chapter
+        date: 2026
 
-      - title: GIST Scholarship for High Academic Achievement
-        date: 2023
-        awarder: Gwangju Institute of Science and Technology
+      - position: Lab Tour, Lab Presenter
+        company: KAIST Creative Global Leader Program
+        date: 2026
 
-      - title: GIST Scholarship for Summer Session Program Abroad
-        date: 2019
-        awarder: Gwangju Institute of Science and Technology
+      - position: TA
+        company: KAIST Research and Education Program for Science High School Students
+        start_date: 2025
+        end_date: 2026
 
-      - title: Government-Funded Scholarship for GIST Undergraduate Students
-        date: 2018
-        awarder: Gwangju Institute of Science and Technology
-        summary: 2018 – 2023
+      - position: President of the club
+        company: GIST Toastmasters
+        start_date: 2018-03
+        end_date: 2019-12
 
-    # Section names other than the built-in ones (Experience, Education, Awards, ...) render as plain one-line rows.
-    Teaching:
-      - bullet: "**Head Teaching Assistant**, CS.39900 Usable Security and Privacy, KAIST (Fall 2025)"
-      - bullet: "**Teaching Assistant**, CS.50300 Operating System, KAIST (Spring 2025)"
-      - bullet: "**Teaching Assistant**, CS.30704 Introduction to Human-Computer Interaction, KAIST (Fall 2024)"
-      - bullet: "**Teaching Assistant**, KAIST Research and Education Program for Science High School Students (2025 – 2026)"
+      - position: Language Exchange Program for GIST International Students
+        company: Doran Doran
+        start_date: 2019-03
+        end_date: 2019-11
 
-    Service & Outreach:
-      - bullet: "**Student Volunteer**, SIGCHI Korea Local Chapter (2026)"
-      - bullet: "**Lab Tour Presenter**, KAIST Creative Global Leader Program (2026)"
-      - bullet: "**President**, GIST Toastmasters (2018 – 2019)"
-      - bullet: "**Language Exchange Program for GIST International Students**, Doran Doran (2019)"
-      - bullet: "**Educational Assistance for Low-Income Students**, GIST Social Contribution Group (2018)"
+      - position: Educational Assistance for Low-Income
+        company: GIST Social Contribution Group
+        start_date: 2018-04
+        end_date: 2018-11
 
     Skills:
       - name: Programming Languages
@@ -160,14 +142,39 @@ cv:
         icon: fa-solid fa-layer-group
         keywords: "Unity, React, PostgreSQL, LangGraph"
 
-    Languages:
-      - name: Korean
-        summary: "Native"
+      - name: Languages
+        icon: fa-solid fa-language
+        keywords: "Korean (native), English (fluent, TOEIC 950, TOEFL 5.5)"
 
-      - name: English
-        summary: "Fluent (TOEIC 950, TOEFL 5.5)"
+    Scholarships & Awards:
+      - title: Excellent Teaching Assistant Award, Edu 4.0 Q Program
+        date: 2025
+        awarder: KAIST Center for Teaching and Learning Innovation
+        summary: One of 10 recipients at Korea Advanced Institute of Science and Technology
 
-    Interests:
-      - name: Research
-        icon: fa-solid fa-tag
-        keywords: "Human–Computer Interaction, Behavior Change, Digital Wellbeing, Positive Computing"
+      - title: Government-Funded Scholarship for KAIST Graduate Students
+        date: "2024 – 2026"
+        awarder: Korea Advanced Institute of Science and Technology
+
+      - title: Honorable Mention Award
+        date: 2023
+        awarder: IEEE International Symposium on Mixed and Augmented Reality
+        summary: 2nd Prize of Conference Papers
+
+      - title: GIST Scholarship for High Academic Achievement
+        date: 2023
+        awarder: Gwangju Institute of Science and Technology
+
+      - title: Government-Funded Scholarship for GIST Undergraduate Students
+        date: "2018 – 2023"
+        awarder: Gwangju Institute of Science and Technology
+
+      - title: GIST Scholarship for Summer Session Program Abroad
+        date: 2019
+        awarder: Gwangju Institute of Science and Technology
+
+    Military Service:
+      - position: Republic of Korea Army
+        company: Field Artillery Battalion
+        start_date: 2020-05
+        end_date: 2021-11
