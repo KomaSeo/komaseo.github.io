@@ -6,7 +6,7 @@ subtitle: HCI researcher · M.S., School of Computing, <a href='https://www.kais
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: YoungseokSeo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>School of Computing, KAIST</p>
