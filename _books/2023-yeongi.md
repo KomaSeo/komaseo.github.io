@@ -2,7 +2,7 @@
 layout: book-review
 title: "영이"
 author: "김사과"
-title_en: "Yeong-i"
+title_en: "02"
 author_en: "Kim Sagwa"
 cover: assets/img/book_covers/yeongi.jpg
 date: 2023-01-04

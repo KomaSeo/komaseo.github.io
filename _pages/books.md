@@ -12,7 +12,11 @@ collection: books
 
 <!-- prettier-ignore-start -->
 <style>
-  .book-shelf figure.cover { vertical-align: top; }
+  .book-shelf ul { display: grid; grid-template-columns: repeat(auto-fill, 136px); gap: 1rem; }
+  .book-shelf figure.cover { vertical-align: top; width: 136px; margin: 0; display: flex; flex-direction: column; }
+  .book-shelf figure.cover .cover-link { display: flex; flex-direction: column; flex: 1; }
+  .book-shelf figure.cover img { width: 136px; height: 200px; object-fit: cover; }
+  .book-shelf figure.cover figcaption { margin-top: auto; }
   .book-shelf .cover-meta { width: 0; min-width: 100%; margin: 0.35rem 0 0.25rem; line-height: 1.25; }
   .book-shelf .cover-title { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; font-size: 0.78rem; font-weight: 600; color: var(--global-text-color); }
   .book-shelf .cover-author { display: block; margin-top: 0.15rem; font-size: 0.7rem; color: var(--global-text-color-light); }
