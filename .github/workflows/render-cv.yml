@@ -1,14 +1,7 @@
 name: Render a CV
+# Not run on push: the site links a hand-made PDF (assets/pdf/YoungseokSeo_CV.pdf), and _data/cv.yml uses
+# al-folio web fields (label, summary, icons) that RenderCV's strict schema rejects.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
   workflow_call:
   workflow_dispatch:
 permissions:
