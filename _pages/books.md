@@ -6,8 +6,8 @@ nav: false
 collection: books
 ---
 
-> I often read books. Sometimes for my work. Sometimes purely out of interest, as a hobby. Sometimes to overcome my own weakness. I'm always glad to get book recommendations. 
->To visitors, I recommend "A Gentleman in Moscow" by Amor Towles.
+> I often read books. Sometimes for my work. Sometimes purely out of interest, as a hobby. Sometimes to overcome my own weakness. I'm always glad to get book recommendations.
+> To visitors, I recommend "A Gentleman in Moscow" by Amor Towles.
 
 ## Books that I am reading, have read, or will read
 
