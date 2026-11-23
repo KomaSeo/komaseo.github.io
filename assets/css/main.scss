@@ -107,3 +107,32 @@
     list-style: none;
   }
 }
+
+// Publications: venue badge sits above the title (no empty left column), own name in bold instead of underlined.
+.publications ol.bibliography > li > .row {
+  flex-direction: column;
+
+  > .abbr {
+    flex: none;
+    max-width: none;
+    width: auto;
+
+    abbr.badge {
+      // `w-100` is an !important utility in a cascade layer, so cap the width instead of overriding it.
+      max-width: max-content;
+      padding: 0.3em 0.7em;
+      margin-bottom: 0.35rem;
+    }
+  }
+
+  > .col-sm-8 {
+    flex: none;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.publications ol.bibliography li .author > em {
+  border-bottom: 0;
+  font-weight: 700;
+}
