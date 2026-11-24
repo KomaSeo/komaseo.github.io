@@ -9,7 +9,8 @@ profile:
   image: YoungseokSeo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>School of Computing, KAIST</p>
+    <p><a href="/assets/pdf/YoungseokSeo_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a></p>
+    <p><a href="mailto:ysseo0910@gmail.com">ysseo0910@gmail.com</a></p>
     <p>Daejeon, Republic of Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
