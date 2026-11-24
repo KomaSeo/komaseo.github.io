@@ -68,10 +68,3 @@
 .publications h2.bibliography {
   color: color-mix(in srgb, var(--global-text-color) 35%, transparent);
 }
-
-// About page: the text under the profile photo uses the body font instead of monospace.
-.profile .more-info {
-  font-family: inherit;
-  font-size: 0.9rem;
-  line-height: 1.6;
-}

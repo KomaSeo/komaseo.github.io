@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: HCI researcher · M.S., School of Computing, <a href='https://www.kaist.ac.kr/en/'>KAIST</a>
+subtitle: >-
+  HCI researcher · M.S., School of Computing, <a href='https://www.kaist.ac.kr/en/'>KAIST</a><br>
+  <a href='/assets/pdf/YoungseokSeo_CV.pdf' target='_blank' rel='noopener'>CV (PDF)</a> ·
+  <a href='mailto:ysseo0910@gmail.com'>ysseo0910@gmail.com</a>
 
 profile:
   align: right
   image: YoungseokSeo.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <div><a href="/assets/pdf/YoungseokSeo_CV.pdf" target="_blank" rel="noopener">CV (PDF)</a></div>
-    <div><a href="mailto:ysseo0910@gmail.com">ysseo0910@gmail.com</a></div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
