@@ -4,8 +4,8 @@ title: about
 permalink: /
 subtitle: >-
   HCI researcher · M.S., School of Computing, <a href='https://www.kaist.ac.kr/en/'>KAIST</a><br>
-  <a href='/assets/pdf/YoungseokSeo_CV.pdf' target='_blank' rel='noopener'>CV (PDF)</a> ·
-  <a href='mailto:ysseo0910@gmail.com'>ysseo0910@gmail.com</a>
+  <a class='profile-btn' href='/assets/pdf/YoungseokSeo_CV.pdf' target='_blank' rel='noopener'>CV (PDF)</a>
+  <button type='button' class='profile-btn' title='Click to copy' onclick="var b=this,e='ysseo0910@gmail.com',l='contact:ysseo0910@gmail.com';function ok(){b.textContent='Copied!';setTimeout(function(){b.textContent=l},1500)}function fb(){var t=document.createElement('textarea');t.value=e;document.body.appendChild(t);t.select();var s=false;try{s=document.execCommand('copy')}catch(x){}t.remove();if(s){ok()}else{b.textContent=e}}if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(e).then(ok,fb)}else{fb()}">contact:ysseo0910@gmail.com</button>
 
 profile:
   align: right

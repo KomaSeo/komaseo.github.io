@@ -68,3 +68,24 @@
 .publications h2.bibliography {
   color: color-mix(in srgb, var(--global-text-color) 35%, transparent);
 }
+
+// About page: CV and contact buttons under the subtitle.
+.desc .profile-btn {
+  display: inline-block;
+  margin: 0.6rem 0.4rem 0 0;
+  padding: 0.3rem 0.8rem;
+  font: inherit;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--global-text-color) !important;
+  background: transparent;
+  border: 1px solid var(--global-text-color-light);
+  border-radius: 0.375rem;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+  }
+}
