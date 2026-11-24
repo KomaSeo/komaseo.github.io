@@ -39,11 +39,3 @@ My research asks how people can retain agency over the digital media and AI syst
 3. **find** harm-prevention tools that fit their own situation.
 
 Along the way, I've built multi-agent LLM systems for ethics education, and collaborated on work about personalized micro-financial incentives for digital wellbeing and redirected walking in virtual reality.
-
-## education
-
-- **M.S., School of Computing**, [KAIST](https://www.kaist.ac.kr/en/) · Sep. 2024 – Aug. 2026 <br>
-  Thesis: _Development and Evaluation of a Multi-Agent Debate System-Based Tool for Enhancing Ethical Awareness and Responsiveness_
-- **B.S., Electrical Engineering and Computer Science**, [GIST](https://www.gist.ac.kr/en/) · Mar. 2018 – Feb. 2024 <br>
-  Graduated _cum laude_
-- **Summer Session Program, Computer Science and Statistics**, UC Berkeley · Summer 2019
