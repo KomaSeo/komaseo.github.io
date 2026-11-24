@@ -1,3 +1,6 @@
-"lee":
-  - firstname: ["Uichin", "U."]
-    url: https://ic.kaist.ac.kr/
+# Coauthors listed here get their name linked to `url` in publication lists.
+# Example:
+# "lee":
+#   - firstname: ["Uichin", "U."]
+#     url: https://ic.kaist.ac.kr/
+{}
