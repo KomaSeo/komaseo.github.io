@@ -50,12 +50,14 @@ and the tool checks at the content level whether what they open fits their curre
 
 **What I learned**
 
-I do use it every day, but it turned out to have more inconveniences than I expected.
-A lot of necessary internet use is only indirectly tied to the task; writing a paper, for example, can mean opening GitHub to read someone's code.
+We do use it every day, but it turned out to have more inconveniences than we expected. A lot of necessary internet use is only indirectly tied to the task.
+For example, writing a paper may require opening GitHub to read someone's code, which the AI is highly likely to block.
 So we built an "AI court," where the user can argue why they need a blocked site and the AI rules on the appeal.
-Users also want complex rules but simple moments. Real life is full of outliers, so users want their ideal life rules to cover many paths (high path complexity),
-such as "On Friday at 8 p.m., if next week's to-dos add up to more than 80 estimated hours, don't take the evening off."
-At the same time, they want each moment to involve as few decisions as possible (low choice complexity); they don't want to spend attention on entering accurate time estimates.
+
+We also want complex rules but simple choices in the moment. Real life is full of outliers, so we want our usage rules to cover many paths
+(what we call a high path complexity objective), such as "On Friday at 8 p.m., if next week's to-dos add up to more than 80 estimated hours, don't take the evening break."
+At the same time, we want each moment to involve as few decisions as possible (what we call a low choice complexity objective).
+We don't want to spend attention on entering accurate time estimates.
 
 ## Value-Based Feed Substitution
 
