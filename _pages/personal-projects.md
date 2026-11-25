@@ -84,7 +84,6 @@ I co-designed it with friends interested in digital wellbeing.
 - **Extract.** A browser extension pulls the text and images of each feed item and sends them to a local app for evaluation.
 - **Judge.** Each item goes through filters: a word-based blacklist, and an LLM-based filter that follows a block prompt the user writes in their own words.
 - **Hide and substitute.** Items judged "block" are hidden from the feed and replaced with videos related to the user's values. These videos are searched for and saved in advance, as soon as the user finishes writing their values.
-- **Guard.** The local app closes browsers that aren't running the extension, so the filter can't simply be bypassed, and blacklisted sites redirect to a block page.
 
 **What I learned**
 
