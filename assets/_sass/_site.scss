@@ -1,0 +1,89 @@
+// Site-local styles, loaded from assets/css/main.scss with @use "site".
+// They live under assets/_sass because jekyll-cache-bust hashes this folder for main.css's ?v= value,
+// so editing this file gives browsers a fresh main.css instead of a cached one.
+// Publications: venue badge sits above the title (no empty left column), own name in bold instead of underlined.
+.publications ol.bibliography > li > .row {
+  flex-direction: column;
+
+  > .abbr {
+    flex: none;
+    max-width: none;
+    width: auto;
+
+    abbr.badge {
+      // `w-100` is an !important utility in a cascade layer, so cap the width instead of overriding it.
+      max-width: max-content;
+      padding: 0.3em 0.7em;
+      margin-bottom: 0.35rem;
+    }
+  }
+
+  > .col-sm-8 {
+    flex: none;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.publications ol.bibliography li .author > em {
+  border-bottom: 0;
+  font-weight: 700;
+}
+
+// Year headings on the publications page: a little darker than the divider color.
+.publications h2.bibliography {
+  color: color-mix(in srgb, var(--global-text-color) 35%, transparent);
+}
+
+// About page: CV and contact buttons under the subtitle.
+.desc .profile-btn {
+  display: inline-block;
+  margin: 0.6rem 0.4rem 0 0;
+  padding: 0.3rem 0.8rem;
+  font: inherit;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--global-text-color) !important;
+  background: transparent;
+  border: 1px solid var(--global-text-color-light);
+  border-radius: 0.375rem;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+  }
+}
+
+// "Copied!" popup shown next to the contact button after a click.
+.desc .copy-toast {
+  display: inline-block;
+  margin: 0.6rem 0 0 0.2rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--global-bg-color);
+  background: var(--global-text-color);
+  border-radius: 0.375rem;
+  transition: opacity 0.3s;
+
+  &.hide {
+    opacity: 0;
+  }
+}
+
+// Personal projects: GitHub link styled as a small outlined button.
+.pp-btn {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.85rem;
+  color: var(--global-text-color) !important;
+  text-decoration: none !important;
+  border: 1px solid var(--global-text-color-light);
+  border-radius: 0.375rem;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+  }
+}

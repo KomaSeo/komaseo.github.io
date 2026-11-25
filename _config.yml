@@ -308,6 +308,10 @@ defaults:
       sitemap: false
 
 sass:
+  # assets/_sass holds the site-local partial (_site.scss); see assets/css/main.scss.
+  load_paths:
+    - _sass
+    - assets/_sass
   style: compressed
 
 # -----------------------------------------------------------------------------
