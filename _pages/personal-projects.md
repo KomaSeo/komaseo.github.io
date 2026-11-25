@@ -42,14 +42,15 @@ I'm co-designing it with a friend who cares about digital wellbeing, and it is t
 
 **How it works**
 
-- **To-do list.** To-dos are grouped and ordered, with deadlines and time estimates, plus my own life rules (for example, deep writing in the morning).
-- **Pick a task.** An AI chooses one task and a time box that fit the deadlines and my rules, and says why it picked that task.
+- **Set life rules.** The user writes the rules they want to live by, such as doing deep writing in the morning.
+- **To-do list.** The user's to-dos are grouped and ordered, with deadlines and time estimates.
+- **Pick a task.** An AI chooses one task and a time box that fit the deadlines and the user's rules, and says why it picked that task.
 - **Work on the task.** The task, its remaining steps, and a timer stay on screen. A to-do can be broken into steps, each with its own estimate.
-- **Window check.** While I work, every app or site I open is checked against the task and its remaining steps.
-  On-task windows are allowed, off-task ones are blocked, and if I need something anyway, I ask with a reason and the AI decides.
-- **Report and look back.** When the time is up, I report whether I finished, didn't finish, or need to extend the time box.
-  If I went over the estimate, I say why: the steps were too coarse, I didn't know enough, or something else.
-- **Adjust the plan.** Based on that, I split the to-do into smaller ones, add a to-do to look into what I didn't know, or re-estimate.
+- **Window check.** While the user works, every app or site they open is checked against the task and its remaining steps.
+  On-task windows are allowed, off-task ones are blocked, and if the user needs something anyway, they ask with a reason and the AI decides.
+- **Report and look back.** When the time is up, the user reports whether they finished, didn't finish, or need to extend the time box.
+  If they went over the estimate, they say why: the steps were too coarse, they didn't know enough, or something else.
+- **Adjust the plan.** Based on that, the user splits the to-do into smaller ones, adds a to-do to look into what they didn't know, or re-estimates.
 
 ## Value-Based Feed Substitution
 
