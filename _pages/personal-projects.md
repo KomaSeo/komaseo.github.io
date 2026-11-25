@@ -13,7 +13,8 @@ _Side project_
 A tool that limits digital activity to what the task at hand needs, with built-in task management and a feedback loop.
 I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
 
-<figure>
+<div class="pp-images">
+<figure style="flex: 2.28">
   <img
     src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-flow.webp' | relative_url }}"
     class="img-fluid rounded z-depth-1"
@@ -24,7 +25,7 @@ I'm co-designing it with a friend who cares about digital wellbeing, and it is t
   <figcaption class="caption">An AI picks the next task and a time box; while I work, every app or site I open is checked against that task.</figcaption>
 </figure>
 
-<figure>
+<figure style="flex: 0.89">
   <img
     src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-app.png' | relative_url }}"
     class="img-fluid rounded z-depth-1"
@@ -34,6 +35,7 @@ I'm co-designing it with a friend who cares about digital wellbeing, and it is t
   >
   <figcaption class="caption">The current task, its remaining steps, and a timer stay on screen while I work.</figcaption>
 </figure>
+</div>
 
 <a class="pp-btn" href="https://github.com/KomaSeo/Digital_Wellbeing_Extensible" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
 
@@ -44,8 +46,9 @@ _Side project_
 Users describe their values in natural language, and the system removes YouTube and Instagram feed items that do not align with them,
 replacing each with a video related to those values. I co-designed it with friends interested in digital wellbeing.
 
-<!-- Screenshots are full width and use the original files: the theme's resized webp copies blur the UI text. -->
-<figure>
+<!-- Screenshots use the original files: the theme's resized webp copies blur the UI text. Each pair sits in one row; flex = width/height keeps both the same height. -->
+<div class="pp-images">
+<figure style="flex: 1.57">
   <img
     src="{{ '/assets/img/personal-projects/value-based-feed-substitution-feed.jpg' | relative_url }}"
     class="img-fluid rounded z-depth-1"
@@ -56,7 +59,7 @@ replacing each with a video related to those values. I co-designed it with frien
   <figcaption class="caption">The filter checks each YouTube feed item and hides the ones that conflict with the user's values.</figcaption>
 </figure>
 
-<figure>
+<figure style="flex: 1.38">
   <img
     src="{{ '/assets/img/personal-projects/value-based-feed-substitution-settings.png' | relative_url }}"
     class="img-fluid rounded z-depth-1"
@@ -66,6 +69,7 @@ replacing each with a video related to those values. I co-designed it with frien
   >
   <figcaption class="caption">Users write, in their own words, what the filter should block.</figcaption>
 </figure>
+</div>
 
 The effect was smaller than expected because people still reached for channels they already subscribed to.
 The bigger lesson was that the values I hold and what I need to do right now often don't match.

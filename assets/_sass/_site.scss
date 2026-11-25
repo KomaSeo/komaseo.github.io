@@ -102,3 +102,28 @@
     border: 1px solid var(--global-divider-color);
   }
 }
+
+// Personal projects: each project's images sit side by side in one row (stacked on phones).
+// Each <figure> gets `flex: width/height` inline so the images end up the same height.
+.pp-images {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+
+  figure {
+    min-width: 0;
+    margin: 0 0 1rem;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  @media (max-width: 576px) {
+    flex-direction: column;
+
+    figure {
+      flex: none !important;
+    }
+  }
+}
