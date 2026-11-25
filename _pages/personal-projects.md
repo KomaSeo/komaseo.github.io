@@ -36,20 +36,8 @@ nav: false
 
 _Side project_ · <a class="pp-btn" href="https://github.com/KomaSeo/Digital_Wellbeing_Extensible" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
 
-Most digital wellbeing tools ask "how much time did you spend?". This tool asks "does this app or site serve the task I'm doing right now?".
-It limits digital activity to what the current task needs, and wraps that limit in task management and a feedback loop,
-so the plan itself gets better over time. I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
-
-**How it works**
-
-- **To-do list.** To-dos are grouped and ordered, with deadlines and time estimates, plus my own life rules (for example, deep writing in the morning).
-- **Pick a task.** An AI chooses one task and a time box that fit the deadlines and my rules, and says why it picked that task.
-- **Work on the task.** The task, its remaining steps, and a timer stay on screen. A to-do can be broken into steps, each with its own estimate.
-- **Window check.** While I work, every app or site I open is checked against the task and its remaining steps.
-  On-task windows are allowed, off-task ones are blocked, and if I need something anyway, I ask with a reason and the AI decides.
-- **Report and look back.** When the time is up, I report whether I finished, didn't finish, or need to extend the time box.
-  If I went over the estimate, I say why: the steps were too coarse, I didn't know enough, or something else.
-- **Adjust the plan.** Based on that, I split the to-do into smaller ones, add a to-do to look into what I didn't know, or re-estimate.
+A tool that limits digital activity to what the task at hand needs, with built-in task management and a feedback loop.
+I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
 
 ## Value-Based Feed Substitution
 
@@ -79,20 +67,10 @@ so the plan itself gets better over time. I'm co-designing it with a friend who 
 
 _Side project_
 
-Recommendation feeds are tuned for engagement, not for what we care about. In this project, users describe their values in natural language,
-and the system removes YouTube and Instagram feed items that do not align with them, replacing each with a video related to those values.
-I co-designed it with friends interested in digital wellbeing.
-
-**How it works**
-
-- **Extract.** A browser extension pulls the text and images of each feed item and sends them to a local app for evaluation.
-- **Judge.** Each item goes through filters: a word-based blacklist, and an LLM-based filter that follows a block prompt the user writes in their own words.
-- **Hide and substitute.** Items judged "block" are hidden from the feed and replaced with videos related to the user's values.
-- **Guard.** The local app closes browsers that aren't running the extension, so the filter can't simply be bypassed, and blacklisted sites redirect to a block page.
-
-**What I learned**
+Users describe their values in natural language, and the system removes YouTube and Instagram feed items that do not align with them,
+replacing each with a video related to those values. I co-designed it with friends interested in digital wellbeing.
 
 The effect was smaller than expected because people still reached for channels they already subscribed to.
 The bigger lesson was that the values I hold and what I need to do right now often don't match.
 When I play games with friends, the values I follow and the person I want to be are far apart.
-This led to Object-Oriented Digital Usage: instead of filtering by values, it filters by the task at hand.
+This led to Object-Oriented Digital Usage.
