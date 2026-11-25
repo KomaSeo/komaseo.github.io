@@ -11,26 +11,26 @@ nav: false
 <h2 id="object-oriented-digital-usage">Object-Oriented Digital Usage <a class="pp-btn" href="https://github.com/KomaSeo/Digital_Wellbeing_Extensible" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></h2>
 
 <div class="pp-images">
-<figure style="flex: 2.28">
+<figure style="flex: 0.745">
   <img
-    src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-flow.webp' | relative_url }}"
+    src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-todos.png' | relative_url }}"
     class="img-fluid rounded z-depth-1"
-    alt="Flow diagram: to-do list, AI picks a task and a time box, work on the task while an AI window check blocks off-task apps, report, look back, and adjust the plan"
+    alt="The app's To-dos screen: to-dos grouped into Research, Teaching, Health and other groups, each with a due date, priority, and time estimate"
     loading="lazy"
     data-zoomable
   >
-  <figcaption class="caption">The loop the tool runs for every task.</figcaption>
+  <figcaption class="caption">To-dos are grouped, with deadlines, priorities, and time estimates.</figcaption>
 </figure>
 
-<figure style="flex: 0.89">
+<figure style="flex: 0.813">
   <img
-    src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-app.png' | relative_url }}"
+    src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-work.png' | relative_url }}"
     class="img-fluid rounded z-depth-1"
-    alt="The app's Work screen showing the current task, its to-do, a countdown timer, and the remaining steps"
+    alt="The Work screen with a 'Just blocked. Was that right?' dialog after the AI blocked a funny cat video during a paper-writing task"
     loading="lazy"
     data-zoomable
   >
-  <figcaption class="caption">The Work screen while a task is running.</figcaption>
+  <figcaption class="caption">An off-task site is blocked, and the user can tell the AI whether the block was right.</figcaption>
 </figure>
 </div>
 
