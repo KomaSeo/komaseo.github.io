@@ -48,10 +48,6 @@ I'm co-designing it with a friend who cares about digital wellbeing, and it is t
 - **Work on the task.** The task, its remaining steps, and a timer stay on screen. A to-do can be broken into steps, each with its own estimate.
 - **Window check.** While the user works, every app or site they open is checked against the task and its remaining steps.
   On-task windows are allowed, off-task ones are blocked, and if the user needs something anyway, they ask with a reason and the AI decides.
-- **Report and look back.** When the time is up, the user reports whether they finished, didn't finish, or need to extend the time box.
-  If they went over the estimate, they say why: the steps were too coarse, they didn't know enough, or something else.
-- **Adjust the plan.** Based on that, the user splits the to-do into smaller ones, adds a to-do to look into what they didn't know, or re-estimates.
-
 ## Value-Based Feed Substitution
 
 <div class="pp-images">
