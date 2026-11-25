@@ -52,4 +52,13 @@ collection: books
 
 ## Drawing
 
-Coming soon.
+> I love drawing. When I'm stressed or going through a hard time, I head out to draw.
+
+<!-- Originals are used (no resized webp copies) so pencil lines stay sharp; click an image to zoom. -->
+<div class="drawing-gallery">
+  <img src="{{ '/assets/img/drawing/water-tower-dog.jpg' | relative_url }}" alt="Pencil drawing of a dog standing in tall grass beside a water tower" loading="lazy" data-zoomable>
+  <img src="{{ '/assets/img/drawing/tower-and-traveler.jpg' | relative_url }}" alt="Pen drawing of a traveler with a backpack and cape looking up at a mechanical tower" loading="lazy" data-zoomable>
+  <img src="{{ '/assets/img/drawing/portraits.jpg' | relative_url }}" alt="Pencil portraits of a young child and an older woman with glasses" loading="lazy" data-zoomable>
+  <img src="{{ '/assets/img/drawing/alley.jpg' | relative_url }}" alt="Pencil sketch of an alley with apartment buildings, power lines, and a parked car" loading="lazy" data-zoomable>
+  <img src="{{ '/assets/img/drawing/animal-heads.jpg' | relative_url }}" alt="Pencil study sheet of animal heads, including a dog, sheep, horse, cow, alligator, and lion" loading="lazy" data-zoomable>
+</div>
