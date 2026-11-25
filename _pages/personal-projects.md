@@ -8,7 +8,7 @@ nav: false
 
 ## Object-Oriented Digital Usage
 
-_2026 – present · Side project_
+_Side project_
 
 A tool that limits digital activity to what the task at hand needs, with built-in task management and a feedback loop.
 I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
