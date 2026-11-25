@@ -1,20 +1,11 @@
 ---
-# Hidden until `published: false` is removed (or set to true). The date in the file name is the post's date,
-# so a post written today keeps today's date when it goes public later.
 published: false
 layout: post
-title: First post
+title: 경로 복잡성과 선택 복잡성
 date: 2026-11-25
-description: One line that shows under the title in the blog list.
-tags:
-categories:
+description: AI 시대에 프로그램 복잡성을 어떻게 관리해야 하는가?
 ---
-
-Write the post here in Markdown.
-
-## A heading
-
-A paragraph. **Bold**, _italic_, and [a link](https://youngseokseo.com/).
-
-- A bullet
-- Another bullet
+디지털 웰빙 툴을 만들고 쓰다 보니, 더더욱 선택 복잡성이 프로그램 복잡성을 관리하는 키 팩터로 보인다.  
+예전에는 알고리즘 자체의 복잡도가 높으면 작성해야 하는 테스트 케이스가 많아져서 관리하기가 어려웠고, 특히 recursive 요소를 포함한 알고리즘에서 경로를 모두 따져 테스트 케이스를 작성하기가 정말 힘들 었는데, 이제는 AI가 테스트 케이스를 잘 짜줘서 괜찮은 것 같다.  
+그럼 프로그램을 짤 때 관리해야 하는 건 경로 복잡성 보다도 프로그래머가 "머릿 속에 flow를 자연스럽게 떠올릴 수 있을 만큼" 적은 수의 design space를 가지도록 program의 goal을 구체적으로 specify 하는 게 필요하다고 생각한다.  
+그래서 프로그래머의 선택 복잡성이 낮아지도록.
