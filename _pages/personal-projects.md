@@ -51,11 +51,12 @@ I'm co-designing it with a friend who cares about digital wellbeing, and it is t
 
 **What I learned**
 
-- **A lot of necessary internet use is only indirectly tied to the task.** Writing a paper, for example, can mean opening GitHub to read someone's code.
-  So we built an "AI court": when a site is blocked, the user can argue why they need it, and the AI rules on the appeal.
-- **Users want complex rules but simple moments.** Real life is full of outliers, so users want their ideal life rules to cover many paths (high path complexity),
-  for example, "On Friday at 8 p.m., if next week's to-dos add up to more than 80 estimated hours, don't take the evening off."
-  At the same time, they want each moment to involve as few decisions as possible (low choice complexity): they don't want to spend attention on entering accurate time estimates.
+I do use it every day, but it turned out to have more inconveniences than I expected.
+A lot of necessary internet use is only indirectly tied to the task; writing a paper, for example, can mean opening GitHub to read someone's code.
+So we built an "AI court," where the user can argue why they need a blocked site and the AI rules on the appeal.
+Users also want complex rules but simple moments. Real life is full of outliers, so users want their ideal life rules to cover many paths (high path complexity),
+such as "On Friday at 8 p.m., if next week's to-dos add up to more than 80 estimated hours, don't take the evening off."
+At the same time, they want each moment to involve as few decisions as possible (low choice complexity); they don't want to spend attention on entering accurate time estimates.
 
 ## Value-Based Feed Substitution
 
