@@ -49,6 +49,14 @@ I'm co-designing it with a friend who cares about digital wellbeing, and it is t
 - **Window check.** While the user works, every app or site they open is checked against the task and its remaining steps.
   On-task windows are allowed, off-task ones are blocked, and if the user needs something anyway, they ask with a reason and the AI decides.
 
+**What I learned**
+
+- **A lot of necessary internet use is only indirectly tied to the task.** Writing a paper, for example, can mean opening GitHub to read someone's code.
+  So we built an "AI court": when a site is blocked, the user can argue why they need it, and the AI rules on the appeal.
+- **Users want complex rules but simple moments.** Real life is full of outliers, so users want their ideal life rules to cover many paths (high path complexity),
+  for example, "On Friday at 8 p.m., if next week's to-dos add up to more than 80 estimated hours, don't take the evening off."
+  At the same time, they want each moment to involve as few decisions as possible (low choice complexity): they don't want to spend attention on entering accurate time estimates.
+
 ## Value-Based Feed Substitution
 
 <div class="pp-images">
