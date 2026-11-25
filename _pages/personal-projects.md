@@ -6,22 +6,46 @@ description: Tools I built for myself and my friends. We implemented and used th
 nav: false
 ---
 
-<!-- Each card comes from a file in _projects/ (ordered by `importance`); clicking a card opens that file's page. -->
-<!-- prettier-ignore-start -->
-<div class="pp-grid">
-{% assign pp_projects = site.projects | sort: "importance" %}
-{% for project in pp_projects %}
-<div class="pp-card">
-<div class="pp-cover">
-{% if project.img %}<img src="{{ project.img | prepend: '/' | relative_url }}" alt="{{ project.title }}" loading="lazy">{% else %}<div class="pp-placeholder"><i class="fa-solid fa-laptop-code"></i></div>{% endif %}
-</div>
-<div class="pp-body">
-{% if project.period %}<div class="pp-period">{{ project.period }}</div>{% endif %}
-<h3 class="pp-title"><a class="pp-link" href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-<p class="pp-desc">{{ project.description }}</p>
-{% if project.github %}<div class="pp-actions"><a class="pp-btn" href="{{ project.github }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></div>{% endif %}
-</div>
-</div>
-{% endfor %}
-</div>
-<!-- prettier-ignore-end -->
+## Object-Oriented Digital Usage
+
+_2026 – present · Side project_
+
+A tool that limits digital activity to what the task at hand needs, with built-in task management and a feedback loop.
+I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
+
+<a class="pp-btn" href="https://github.com/KomaSeo/Digital_Wellbeing_Extensible" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+
+## Value-Based Feed Substitution
+
+_2024 – 2025 · Side project_
+
+Users describe their values in natural language, and the system removes YouTube and Instagram feed items that do not align with them,
+replacing each with a video related to those values. I co-designed it with friends interested in digital wellbeing.
+
+<!-- Screenshots are full width and use the original files: the theme's resized webp copies blur the UI text. -->
+<figure>
+  <img
+    src="{{ '/assets/img/personal-projects/value-based-feed-substitution-feed.jpg' | relative_url }}"
+    class="img-fluid rounded z-depth-1"
+    alt="YouTube home feed with the content filter panel listing an allow or block verdict for each feed item"
+    loading="lazy"
+    data-zoomable
+  >
+  <figcaption class="caption">The filter checks each YouTube feed item and hides the ones that conflict with the user's values.</figcaption>
+</figure>
+
+<figure>
+  <img
+    src="{{ '/assets/img/personal-projects/value-based-feed-substitution-settings.png' | relative_url }}"
+    class="img-fluid rounded z-depth-1"
+    alt="Settings window of the LLM-based filter with a custom prompt describing what to block"
+    loading="lazy"
+    data-zoomable
+  >
+  <figcaption class="caption">Users write, in their own words, what the filter should block.</figcaption>
+</figure>
+
+The effect was smaller than expected because people still reached for channels they already subscribed to.
+The bigger lesson was that the values I hold and what I need to do right now often don't match.
+When I play games with friends, the values I follow and the person I want to be are far apart.
+This led to Object-Oriented Digital Usage.
