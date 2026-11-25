@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >-
   HCI researcher · M.S., School of Computing, <a href='https://www.kaist.ac.kr/en/'>KAIST</a><br>
