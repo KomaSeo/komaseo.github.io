@@ -89,3 +89,20 @@
     border-color: var(--global-theme-color);
   }
 }
+
+// "Copied!" popup shown next to the contact button after a click.
+.desc .copy-toast {
+  display: inline-block;
+  margin: 0.6rem 0 0 0.2rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--global-bg-color);
+  background: var(--global-text-color);
+  border-radius: 0.375rem;
+  transition: opacity 0.3s;
+
+  &.hide {
+    opacity: 0;
+  }
+}

@@ -5,7 +5,7 @@ permalink: /
 subtitle: >-
   HCI researcher · M.S., School of Computing, <a href='https://www.kaist.ac.kr/en/'>KAIST</a><br>
   <a class='profile-btn' href='/assets/pdf/YoungseokSeo_CV.pdf' target='_blank' rel='noopener'>CV (PDF)</a>
-  <button type='button' class='profile-btn' title='Click to copy' onclick="var b=this,e='ysseo0910@gmail.com',l='contact:ysseo0910@gmail.com';function ok(){b.textContent='Copied!';setTimeout(function(){b.textContent=l},1500)}function fb(){var t=document.createElement('textarea');t.value=e;document.body.appendChild(t);t.select();var s=false;try{s=document.execCommand('copy')}catch(x){}t.remove();if(s){ok()}else{b.textContent=e}}if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(e).then(ok,fb)}else{fb()}">contact:ysseo0910@gmail.com</button>
+  <button type='button' class='profile-btn' title='Click to copy' onclick="var b=this,e='ysseo0910@gmail.com';function show(m){var o=b.nextElementSibling;if(o&&o.classList.contains('copy-toast')){o.remove()}var t=document.createElement('span');t.className='copy-toast';t.setAttribute('role','status');t.textContent=m;b.after(t);setTimeout(function(){t.classList.add('hide')},1200);setTimeout(function(){t.remove()},1600)}function fb(){var t=document.createElement('textarea');t.value=e;document.body.appendChild(t);t.select();var s=false;try{s=document.execCommand('copy')}catch(x){}t.remove();show(s?'Copied!':e)}if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(e).then(function(){show('Copied!')},fb)}else{fb()}">contact:ysseo0910@gmail.com</button>
 
 profile:
   align: right
