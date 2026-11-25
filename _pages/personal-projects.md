@@ -34,9 +34,11 @@ nav: false
 </figure>
 </div>
 
-Most digital wellbeing tools ask "how much time did you spend?". This tool asks "does this app or site serve the task I'm doing right now?".
-It limits digital activity to what the current task needs, and wraps that limit in task management and a feedback loop,
-so the plan itself gets better over time. I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
+When I used existing digital wellbeing tools, what they blocked was fixed. It was hard to adapt the block list to what I actually meant to do on my device at that moment,
+and because of that, I could never stick with a digital wellbeing app for long.
+With this tool, we set out to make long-term digital wellbeing possible. Users define their life rules and to-do list,
+and the tool checks at the content level whether what they open fits their current task and their rules.
+I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
 
 **How it works**
 
