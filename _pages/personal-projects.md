@@ -1,6 +1,6 @@
 ---
 layout: page
-title: personal projects
+title: Personal projects
 permalink: /personal-projects/
 description: Tools I build for my own digital wellbeing, with friends who care about it too.
 nav: false
