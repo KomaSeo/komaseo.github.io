@@ -38,7 +38,6 @@ When I used existing digital wellbeing tools, what they blocked was fixed. It wa
 and because of that, I could never stick with a digital wellbeing app for long.
 With this tool, we set out to make long-term digital wellbeing possible. Users define their life rules and to-do list,
 and the tool checks at the content level whether what they open fits their current task and their rules.
-I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
 
 **How it works**
 
