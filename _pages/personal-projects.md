@@ -8,7 +8,7 @@ nav: false
 
 <!-- Screenshots use the original files: the theme's resized webp copies blur the UI text. Each pair sits in one row; flex = width/height keeps both the same height. -->
 
-## Object-Oriented Digital Usage
+<h2 id="object-oriented-digital-usage">Object-Oriented Digital Usage <a class="pp-btn" href="https://github.com/KomaSeo/Digital_Wellbeing_Extensible" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></h2>
 
 <div class="pp-images">
 <figure style="flex: 2.28">
@@ -33,8 +33,6 @@ nav: false
   <figcaption class="caption">The Work screen while a task is running.</figcaption>
 </figure>
 </div>
-
-_Side project_ · <a class="pp-btn" href="https://github.com/KomaSeo/Digital_Wellbeing_Extensible" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
 
 A tool that limits digital activity to what the task at hand needs, with built-in task management and a feedback loop.
 I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
@@ -64,8 +62,6 @@ I'm co-designing it with a friend who cares about digital wellbeing, and it is t
   <figcaption class="caption">The filter checks each YouTube feed item and hides the ones that conflict with the user's values.</figcaption>
 </figure>
 </div>
-
-_Side project_
 
 Users describe their values in natural language, and the system removes YouTube and Instagram feed items that do not align with them,
 replacing each with a video related to those values. I co-designed it with friends interested in digital wellbeing.
