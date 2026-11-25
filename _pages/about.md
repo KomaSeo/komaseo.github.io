@@ -30,7 +30,7 @@ latest_posts:
 
 I'm Youngseok Seo, a researcher in **Human–Computer Interaction** working on **positive computing**, **behavior change**, and **digital wellbeing**.
 I received my M.S. from the School of Computing at KAIST, where I worked in the [Interactive Computing Lab](https://ic.kaist.ac.kr/) with Prof. Uichin Lee.
-Before that, I earned my B.S. in Electrical Engineering and Computer Science from GIST (_cum laude_), where I worked on redirected walking in virtual reality at the HCIS Lab with Prof. SeungJun Kim.
+Before that, I earned my B.S. in Electrical Engineering and Computer Science from GIST (_cum laude_), where I worked on virtual reality at the HCIS Lab with Prof. SeungJun Kim.
 
 **I'm currently applying to PhD programs in HCI for Fall 2027.**
 
@@ -39,5 +39,3 @@ My research asks how people can retain agency over the digital media and AI syst
 1. **examine** how their digital and AI use affects them,
 2. **share** these effects with the people around them, and
 3. **find** harm-prevention tools that fit their own situation.
-
-Along the way, I've built multi-agent LLM systems for ethics education, and collaborated on work about personalized micro-financial incentives for digital wellbeing and redirected walking in virtual reality.
