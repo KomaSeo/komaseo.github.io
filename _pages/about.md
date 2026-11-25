@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle: >-
   HCI researcher · M.S., School of Computing, <a href='https://www.kaist.ac.kr/en/'>KAIST</a><br>
@@ -13,7 +13,7 @@ profile:
   image: YoungseokSeo.jpg
   image_circular: false # crops the image to make it circular
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
@@ -42,3 +42,11 @@ My research asks how people can retain agency over the digital media and AI syst
 3. **build** digital environments that prevent harm and fit their own situation.
 
 Outside research, I develop digital wellbeing tools for myself and the friends around me. See [Personal projects](/personal-projects/).
+
+## Publications
+
+<div class="publications">
+
+{% bibliography %}
+
+</div>
