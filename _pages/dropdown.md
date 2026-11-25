@@ -7,8 +7,6 @@ dropdown: true
 children:
   - title: Personal projects
     permalink: /personal-projects/
-  - title: Bookshelf
-    permalink: /books/
-  - title: Drawing
-    permalink: /drawing/
+  - title: Hobby
+    permalink: /hobby/
 ---

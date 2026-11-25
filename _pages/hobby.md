@@ -1,19 +1,22 @@
 ---
 layout: page
-title: Bookshelf
-permalink: /books/
+title: Hobby
+permalink: /hobby/
+description: What I do when I'm not doing research.
 nav: false
 collection: books
 ---
 
+[Reading](#reading) · [Drawing](#drawing)
+
+## Reading
+
 > I often read books. Sometimes for my work. Sometimes purely out of interest, as a hobby. Sometimes to overcome my own weakness. I'm always glad to get book recommendations.
 > To visitors, I recommend "A Gentleman in Moscow" by Amor Towles.
 
-## Books that I am reading, have read, or will read
-
 <!-- prettier-ignore-start -->
 <style>
-  .book-shelf h1 { color: var(--global-theme-color); }
+  .book-shelf h3 { margin-top: 1.5rem; color: var(--global-theme-color); }
   .book-shelf ul { display: grid; grid-template-columns: repeat(auto-fill, 136px); gap: 1rem; }
   .book-shelf figure.cover { vertical-align: top; width: 136px; margin: 0; display: flex; flex-direction: column; }
   .book-shelf figure.cover .cover-link { display: flex; flex-direction: column; flex: 1; }
@@ -29,7 +32,7 @@ collection: books
 {% assign current_year = item.started | date: "%Y" %}
 {% if current_year != shelf_year %}
 {% unless forloop.first %}</ul>{% endunless %}
-<h1 id="y{{ current_year }}">{{ current_year }}</h1>
+<h3 id="y{{ current_year }}">{{ current_year }}</h3>
 <ul>
 {% assign shelf_year = current_year %}
 {% endif %}
@@ -46,3 +49,7 @@ collection: books
 {% endfor %}
 </div>
 <!-- prettier-ignore-end -->
+
+## Drawing
+
+Coming soon.
