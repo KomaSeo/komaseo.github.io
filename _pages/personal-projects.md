@@ -11,6 +11,17 @@ nav: false
 <h2 id="object-oriented-digital-usage">Object-Oriented Digital Usage <a class="pp-btn" href="https://github.com/KomaSeo/Digital_Wellbeing_Extensible" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></h2>
 
 <div class="pp-images">
+<figure style="flex: 0.775">
+  <img
+    src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-rules.png' | relative_url }}"
+    class="img-fluid rounded z-depth-1"
+    alt="The AI rules settings: life rules such as deep writing in the morning, appointment rules, and the AI instructions for each kind of decision"
+    loading="lazy"
+    data-zoomable
+  >
+  <figcaption class="caption">Every AI decision follows the user's life rules and appointment rules.</figcaption>
+</figure>
+
 <figure style="flex: 0.745">
   <img
     src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-todos.png' | relative_url }}"
