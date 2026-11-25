@@ -17,7 +17,7 @@ I'm co-designing it with a friend who cares about digital wellbeing, and it is t
 
 ## Value-Based Feed Substitution
 
-_2024 – 2025 · Side project_
+_Side project_
 
 Users describe their values in natural language, and the system removes YouTube and Instagram feed items that do not align with them,
 replacing each with a video related to those values. I co-designed it with friends interested in digital wellbeing.
