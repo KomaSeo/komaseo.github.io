@@ -5,10 +5,10 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: personal projects
+  - title: Personal projects
     permalink: /personal-projects/
-  - title: bookshelf
+  - title: Bookshelf
     permalink: /books/
-  - title: hobby
-    permalink: /hobby/
+  - title: Drawing
+    permalink: /drawing/
 ---
