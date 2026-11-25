@@ -52,7 +52,7 @@ collection: books
 
 ## Drawing
 
-> I love drawing. When I'm stressed or going through a hard time, I head out to draw.
+> I love drawing. When I'm stressed or going through a hard time, I grab my sketchbook, go outside to draw, and then come back.
 
 <!-- Originals are used (no resized webp copies) so pencil lines stay sharp; click an image to zoom. -->
 <div class="drawing-gallery">
