@@ -110,9 +110,9 @@ shapes their behavior and cognition, so that change starts from their own unders
 Technology use is social, and so are its effects. I study how people can share what they learn about their technology use with the people
 around them, such as family, friends, classmates, and colleagues, and reflect on it together.
 
-### 3. Recommending harm-prevention tools that fit each situation
+### 3. Building digital environments that prevent harm and fit each situation
 
-There is no single right intervention. I explore how to recommend harm-prevention tools and strategies that fit a person's own situation,
+There is no single right intervention. I explore how to build digital environments that prevent harm in ways that fit a person's own situation,
 building on work in behavior change such as personalized micro-financial incentives for digital wellbeing (CHI 2025).
 
 ## Projects

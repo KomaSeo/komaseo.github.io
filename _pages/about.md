@@ -38,4 +38,4 @@ My research asks how people can retain agency over the digital media and AI syst
 
 1. **examine** how their digital and AI use affects them,
 2. **share** these effects with the people around them, and
-3. **find** harm-prevention tools that fit their own situation.
+3. **build** digital environments that prevent harm and fit their own situation.
