@@ -13,6 +13,28 @@ _Side project_
 A tool that limits digital activity to what the task at hand needs, with built-in task management and a feedback loop.
 I'm co-designing it with a friend who cares about digital wellbeing, and it is the tool I use every day.
 
+<figure>
+  <img
+    src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-flow.webp' | relative_url }}"
+    class="img-fluid rounded z-depth-1"
+    alt="Flow diagram: to-do list, AI picks a task and a time box, work on the task while an AI window check blocks off-task apps, report, look back, and adjust the plan"
+    loading="lazy"
+    data-zoomable
+  >
+  <figcaption class="caption">An AI picks the next task and a time box; while I work, every app or site I open is checked against that task.</figcaption>
+</figure>
+
+<figure>
+  <img
+    src="{{ '/assets/img/personal-projects/object-oriented-digital-usage-app.png' | relative_url }}"
+    class="img-fluid rounded z-depth-1"
+    alt="The app's Work screen showing the current task, its to-do, a countdown timer, and the remaining steps"
+    loading="lazy"
+    data-zoomable
+  >
+  <figcaption class="caption">The current task, its remaining steps, and a timer stay on screen while I work.</figcaption>
+</figure>
+
 <a class="pp-btn" href="https://github.com/KomaSeo/Digital_Wellbeing_Extensible" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
 
 ## Value-Based Feed Substitution
